@@ -39,7 +39,7 @@ function recalculate () {
 
     let total_cost = cost_per_day * duration;
 
-    calc_cost.innerHTML = `${total_cost.toFixed(2)}`;
+    calc_cost.innerHTML = total_cost.toFixed(2);
 }
 /****************** model button logic ******************/
 
